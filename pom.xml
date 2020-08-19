@@ -50,5 +50,19 @@
 		<module>gateway-demo01</module>
     <module>gateway-demo02-registry</module>
     <module>gateway-demo02-service</module>
+    <module>SkyWalking-demo01</module>
+    <module>security-demo01</module>
+    <module>security-demo02</module>
+    <module>config-client</module>
+    <module>config-client-application</module>
+    <module>config-server-git</module>
+    <module>security-demo3-authorization-server-with-resource-owner-password-credentials</module>
+    <module>security-demo03-resource-server</module>
+    <module>rocketmq-demo1</module>
+    <module>xlrdjj</module>
+    <module>SpringBoot8888</module>
+    <module>sleuth-springmvc</module>
+    <module>sleuth-feign</module>
+    <module>config-client-02-application</module>
   </modules>
 </project>
