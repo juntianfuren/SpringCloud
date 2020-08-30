@@ -15,7 +15,7 @@ public class SpringCloud8888Application {
 
 	@GetMapping("/test")
 	public String test() {
-		return "com.jtfr.Application";
+		return "com.jtfr.Application.test";
 	}
 	
 	@GetMapping()

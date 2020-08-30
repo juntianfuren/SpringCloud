@@ -64,5 +64,8 @@
     <module>sleuth-springmvc</module>
     <module>sleuth-feign</module>
     <module>config-client-02-application</module>
+    <module>config-server-git-bus</module>
+    <module>security-demo04-authorization-server-with-resource-owner-password-credentials</module>
+    <module>security-demo04--resource-server</module>
   </modules>
 </project>

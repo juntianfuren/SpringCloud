@@ -36,7 +36,8 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 		clients.inMemory() // <4.1>
 				.withClient("clientapp").secret("112233") // <4.2> Client 账号、密码。
-				.authorizedGrantTypes("password") // <4.2> 密码模式
+				.authorizedGrantTypes("authorization_code") // 授权码模式
+				.redirectUris("http://127.0.0.1:9090/callback") // 配置回调地址，选填。
 				.scopes("read_userinfo", "read_contacts") // <4.2> 可授权的 Scope
 		// .and().withClient() // <4.3> 可以继续配置新的 Client
 		;

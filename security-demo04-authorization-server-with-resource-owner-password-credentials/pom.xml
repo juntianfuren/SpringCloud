@@ -8,7 +8,7 @@
 		<artifactId>SpringCloud</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>security-demo3-authorization-server-with-resource-owner-password-credentials</artifactId>
+	<artifactId>security-demo04-authorization-server-with-resource-owner-password-credentials</artifactId>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
